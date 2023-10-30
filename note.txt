@@ -34,4 +34,6 @@ git checkout -- filename #be serious to use this command,it will go to the initi
 
 git stash pop #get latest version that you stashed，but it will delete your latest version,it likes a stack
 
+git reset head~(2|3|..) --soft#~ means last commit version,number means which time you commit,soft means reset your commit ,but all modifications of you are resume,and your files are cached now.you could delete "soft",then you should use "git add" to add it to your cached room.you chould use "--hard",all modifications of yours are lost!  
+
 aaaa

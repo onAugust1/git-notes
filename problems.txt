@@ -1,2 +1,4 @@
-1 sometimes local repository doesnot have all remote file，then it cannot push。at that monment,use pull to pull remote branch,and merge it,ther you could push.pull is equal to fetch + merge.
-2 
+1
+when you add local file,you should use command "git add" to track this file,so that you could push this reposity
+2
+sometimes local repository doesnot have all remote file，then it cannot push。at that monment,use pull to pull remote branch,and merge it,ther you could push.pull is equal to fetch + merge.

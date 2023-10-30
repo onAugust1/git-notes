@@ -14,7 +14,9 @@ git status #show file status
 
 git add filename #cache modified file
 
-git commit -am filename (branchname) #commit cached file
+git commit -am "" (branchname) #commit all-cached file
+
+git commit filename -m "" (branchname) #commit cached file
 
 git log --pretty=oneline --all --graph #show log
 

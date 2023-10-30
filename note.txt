@@ -26,8 +26,12 @@ cat filename #show the content of file
 
 git stash #clean my resposity to work on other thing,such as "checkout"
 
+git stach list # list of your stash,it likes a stack
+
 git stash apply stash@{} #apply your latest stash content,you could stash more than one time,after you git stash,you git stash again.you could use git stash list to choose which stash you want to use.but it is worthing noting that,the latest stash is 0,and the first stash is the max-number.
 
 git checkout -- filename #be serious to use this command,it will go to the initial version,you will lost all yuor modifications of this file.
 
-git stash pop #get latest version that you stashed
+git stash pop #get latest version that you stashed，but it will delete your latest version,it likes a stack
+
+aaaa

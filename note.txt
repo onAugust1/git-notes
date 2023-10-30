@@ -1,0 +1,21 @@
+git init
+
+git clone https://....
+
+git remote add name https://....
+
+git branch --list
+
+git brach branchname
+
+git checkout brancnname
+
+git status #show file status
+
+git add filename #cache modified file
+
+git commit -am filename (branchname) #commit cached file
+
+git log --pretty=oneline --all --graph #show log
+
+git merge branchname  #current branch merge other branch

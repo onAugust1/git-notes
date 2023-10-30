@@ -1,0 +1,2 @@
+1 sometimes local repository doesnot have all remote file，then it cannot push。at that monment,use pull to pull remote branch,and merge it,ther you could push.pull is equal to fetch + merge.
+2 
